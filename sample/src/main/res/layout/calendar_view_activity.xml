@@ -27,14 +27,6 @@
         android:id="@+id/homeContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/examplesRecyclerview"
-            android:layout_width="match_parent"
-            android:clipToPadding="false"
-            android:clipChildren="false"
-            android:layout_height="match_parent" />
-    </FrameLayout>
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
